@@ -1,51 +1,144 @@
-Puma caught this error: Error loading the 'sqlite3' Active Record adapter. Missing a gem it depends on? can't activate sqlite3 (~> 1.4), already activated sqlite3-2.0.3-arm64-darwin. Make sure all dependencies are added to Gemfile. (LoadError)
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/bundler-2.5.5/lib/bundler/rubygems_integration.rb:237:in `block (2 levels) in replace_gem'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/connection_adapters/sqlite3_adapter.rb:14:in `<top (required)>'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.17/lib/zeitwerk/kernel.rb:34:in `require'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/connection_adapters/abstract/connection_handler.rb:333:in `resolve_pool_config'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/connection_adapters/abstract/connection_handler.rb:134:in `establish_connection'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/connection_handling.rb:53:in `establish_connection'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/railtie.rb:304:in `block (2 levels) in <class:Railtie>'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:97:in `class_eval'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:97:in `block in execute_hook'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:87:in `with_execution_control'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:92:in `execute_hook'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:78:in `block in run_load_hooks'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:77:in `each'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:77:in `run_load_hooks'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/base.rb:338:in `<module:ActiveRecord>'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/base.rb:15:in `<top (required)>'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.17/lib/zeitwerk/kernel.rb:34:in `require'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/query_cache.rb:29:in `run'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:29:in `before'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:426:in `block in make_lambda'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:202:in `block (2 levels) in halting'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:707:in `block (2 levels) in default_terminator'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:706:in `catch'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:706:in `block in default_terminator'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:203:in `block in halting'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `block in invoke_before'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `each'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `invoke_before'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:109:in `run_callbacks'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:129:in `run'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:125:in `run!'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:78:in `block in run!'
-<internal:kernel>:90:in `tap'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:75:in `run!'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actionpack-7.1.3.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actionpack-7.1.3.4/lib/action_dispatch/middleware/static.rb:25:in `call'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/rack-3.1.7/lib/rack/sendfile.rb:114:in `call'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actionpack-7.1.3.4/lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:536:in `call'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/configuration.rb:272:in `call'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/request.rb:100:in `block in handle_request'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/thread_pool.rb:378:in `with_force_shutdown'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/request.rb:99:in `handle_request'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/server.rb:464:in `process_client'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/server.rb:245:in `block in run'
-/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+<!DOCTYPE html>
+<html lang="ta" dir="ltr" itemscope itemtype="https://schema.org/ShortStory">
+  <head>
+    <title>அரக்கனின் ஷோகி விளையாட்டு</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="முழு நிலவின் மாய ஒளியில், ஜப்பானிய நாட்டுப்புறக் கதைகளில் இருந்து மயக்கும் யோக்கையான கோமாயின் கதையைக் கண்டறியவும். மயக்கும் மற்றும் கொடியது, அவள் இழந்த ஆன்மாக்களை ஓகி விளையாட்டில் ஈர்க்கிறாள், அவர்களின் உயிர் சக்தியை உறிஞ்சி நித்திய வேதனைக்கு ஆளாக்குகிறாள். இது அபாயகரமான ஈர்ப்பு மற்றும் சரிபார்க்கப்படாத ஆசை, சோதனையின் ஆபத்துகளுக்கு எதிரான ஒரு கடுமையான எச்சரிக்கை.">
+    <meta name="keywords" content="பேய் கதை, கோமாயோ, obake, ōgi, ஷோகி, yōkai, yūrei">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Cyril Veltin">
+    <meta property="og:title" content="அரக்கனின் ஷோகி விளையாட்டு">
+    <meta property="og:type" content="book">
+    <meta property="og:url" content="https://ta.komayo.page/">
+    <meta property="og:image" content="https://ta.komayo.page/img/komayo-1024x1024.webp">
+    <meta property="og:description" content="முழு நிலவின் மாய ஒளியில், ஜப்பானிய நாட்டுப்புறக் கதைகளில் இருந்து மயக்கும் யோக்கையான கோமாயின் கதையைக் கண்டறியவும். மயக்கும் மற்றும் கொடியது, அவள் இழந்த ஆன்மாக்களை ஓகி விளையாட்டில் ஈர்க்கிறாள், அவர்களின் உயிர் சக்தியை உறிஞ்சி நித்திய வேதனைக்கு ஆளாக்குகிறாள். இது அபாயகரமான ஈர்ப்பு மற்றும் சரிபார்க்கப்படாத ஆசை, சோதனையின் ஆபத்துகளுக்கு எதிரான ஒரு கடுமையான எச்சரிக்கை.">
+    <meta itemprop="name" content="அரக்கனின் ஷோகி விளையாட்டு">
+    <meta itemprop="description" content="முழு நிலவின் மாய ஒளியில், ஜப்பானிய நாட்டுப்புறக் கதைகளில் இருந்து மயக்கும் யோக்கையான கோமாயின் கதையைக் கண்டறியவும். மயக்கும் மற்றும் கொடியது, அவள் இழந்த ஆன்மாக்களை ஓகி விளையாட்டில் ஈர்க்கிறாள், அவர்களின் உயிர் சக்தியை உறிஞ்சி நித்திய வேதனைக்கு ஆளாக்குகிறாள். இது அபாயகரமான ஈர்ப்பு மற்றும் சரிபார்க்கப்படாத ஆசை, சோதனையின் ஆபத்துகளுக்கு எதிரான ஒரு கடுமையான எச்சரிக்கை.">
+    <meta itemprop="image" content="https://ta.komayo.page/img/komayo-1024x1024.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="அரக்கனின் ஷோகி விளையாட்டு">
+    <meta name="twitter:description" content="முழு நிலவின் மாய ஒளியில், ஜப்பானிய நாட்டுப்புறக் கதைகளில் இருந்து மயக்கும் யோக்கையான கோமாயின் கதையைக் கண்டறியவும். மயக்கும் மற்றும் கொடியது, அவள் இழந்த ஆன்மாக்களை ஓகி விளையாட்டில் ஈர்க்கிறாள், அவர்களின் உயிர் சக்தியை உறிஞ்சி நித்திய வேதனைக்கு ஆளாக்குகிறாள். இது அபாயகரமான ஈர்ப்பு மற்றும் சரிபார்க்கப்படாத ஆசை, சோதனையின் ஆபத்துகளுக்கு எதிரான ஒரு கடுமையான எச்சரிக்கை.">
+    <meta name="twitter:image" content="https://ta.komayo.page/img/komayo-1024x1024.webp">
+
+      <link rel="alternate" hreflang="bn" href="https://bn.komayo.page/">
+      <link rel="alternate" hreflang="en" href="https://en.komayo.page/">
+      <link rel="alternate" hreflang="fa" href="https://fa.komayo.page/">
+      <link rel="alternate" hreflang="fr" href="https://fr.komayo.page/">
+      <link rel="alternate" hreflang="gu" href="https://gu.komayo.page/">
+      <link rel="alternate" hreflang="hi" href="https://hi.komayo.page/">
+      <link rel="alternate" hreflang="id" href="https://id.komayo.page/">
+      <link rel="alternate" hreflang="ja" href="https://ja.komayo.page/">
+      <link rel="alternate" hreflang="jv" href="https://jv.komayo.page/">
+      <link rel="alternate" hreflang="kn" href="https://kn.komayo.page/">
+      <link rel="alternate" hreflang="ko" href="https://ko.komayo.page/">
+      <link rel="alternate" hreflang="lo" href="https://lo.komayo.page/">
+      <link rel="alternate" hreflang="ml" href="https://ml.komayo.page/">
+      <link rel="alternate" hreflang="mr" href="https://mr.komayo.page/">
+      <link rel="alternate" hreflang="my" href="https://my.komayo.page/">
+      <link rel="alternate" hreflang="or" href="https://or.komayo.page/">
+      <link rel="alternate" hreflang="pa" href="https://pa.komayo.page/">
+      <link rel="alternate" hreflang="te" href="https://te.komayo.page/">
+      <link rel="alternate" hreflang="th" href="https://th.komayo.page/">
+      <link rel="alternate" hreflang="ur" href="https://ur.komayo.page/">
+      <link rel="alternate" hreflang="vi" href="https://vi.komayo.page/">
+      <link rel="alternate" hreflang="zh" href="https://zh.komayo.page/">
+    <link rel="canonical" href="https://ta.komayo.page/">
+    <link rel="icon" type="image/svg+xml" sizes="any" href="favicon.svg">
+
+    <style media="screen">
+      @media (prefers-color-scheme: light) {
+        :root {
+          --background-color: white;
+          --color: black;
+          --link-color: #6d071a;
+          --quote-color: #6d071a;
+          --shadow-color: #ccc;
+          --article-title-text-color: #000;
+          --article-title-shadow-color: #ccc;
+        }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --background-color: black;
+          --color: white;
+          --link-color: #e37f98;
+          --quote-color: #e37f98;
+          --shadow-color: #58354d;
+          --article-title-text-color: #fff;
+          --article-title-shadow-color: #333;
+        }
+      }
+    </style>
+
+    <link rel="stylesheet" href="css/all.css" media="all">
+    <link rel="stylesheet" href="css/print.css" media="print">
+    <link rel="stylesheet" href="css/screen.css" media="screen">
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ShortStory",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://ta.komayo.page/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Sashité",
+          "url": "https://sashite.com/"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Cyril Veltin"
+        },
+        "inLanguage": "ta",
+        "headline": "அரக்கனின் ஷோகி விளையாட்டு",
+        "description": "முழு நிலவின் மாய ஒளியில், ஜப்பானிய நாட்டுப்புறக் கதைகளில் இருந்து மயக்கும் யோக்கையான கோமாயின் கதையைக் கண்டறியவும். மயக்கும் மற்றும் கொடியது, அவள் இழந்த ஆன்மாக்களை ஓகி விளையாட்டில் ஈர்க்கிறாள், அவர்களின் உயிர் சக்தியை உறிஞ்சி நித்திய வேதனைக்கு ஆளாக்குகிறாள். இது அபாயகரமான ஈர்ப்பு மற்றும் சரிபார்க்கப்படாத ஆசை, சோதனையின் ஆபத்துகளுக்கு எதிரான ஒரு கடுமையான எச்சரிக்கை.",
+        "image": "https://ta.komayo.page/img/komayo-1024x1024.webp",
+        "datePublished": "2023-06-26",
+        "dateModified": "2023-06-26",
+        "keywords": "பேய் கதை, கோமாயோ, obake, ōgi, ஷோகி, yōkai, yūrei"
+      }
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <picture>
+        <source srcset="komayo-light.svg" media="(prefers-color-scheme: light)">
+        <img
+          src="komayo-dark.svg"
+          alt="Komayō"
+          title="கோமாயோ"
+          height="22"
+          width="92">
+      </picture>
+    </header>
+
+    <article>
+  <h1>
+    நகர்ப்புற புராணக்கதை
+  </h1>
+
+  <p>ஜப்பானில், கன்சாய் பகுதியில், முழு நிலவு வானத்தில் பிரகாசிக்கும் போது, ** மயக்கும் வசீகரம் கொண்ட ஒரு உயிரினம் தோன்றுகிறது*, தொலைந்து போன வழிப்போக்கர்களை ஈர்க்க முயல்கிறது. அழகான மற்றும் மர்மமான, <em>Komayō துரதிர்ஷ்டவசமானவர்களை</em> தன் தவிர்க்கமுடியாத கவர்ச்சியால் மயக்குகிறார். பின்னர் அவர் அவர்களுக்கு ōgi என்ற விளையாட்டை வழங்குகிறார், இது பாரம்பரிய ஜப்பானிய செஸ்ன் மாறுபாடு. அவளுடைய அழைப்பை ஏற்றுக்கொள்பவர்கள் விரைவிலேயே சிலிர்ப்பான விளையாட்டின் சூறாவளியில் சிக்கிக் கொள்கிறார்கள். இருப்பினும், விளையாட்டு தொடரும்போது, அவர்கள் ஒரு விசித்திரமான சோர்வை உணரத் தொடங்குகிறார்கள், அது படிப்படியாக அவர்களின் எலும்புகளுக்குள் ஊடுருவி, இறுதியில் தவிர்க்க முடியாத தூக்கத்திற்கு அடிபணியச் செய்கிறது. இந்த ஆழ்ந்த உறக்கத்தின் போது தான் கோமாயோ தன் உண்மையான இயல்பை வெளிப்படுத்துகிறாள். அவள் அவர்களின் முக்கிய ஆற்றலை உறிஞ்சி, அவளுடைய முன்னாள் உயிர்ச்சக்தியின் வெற்று ஷெல்லை மட்டுமே விட்டுச் செல்கிறாள். இந்த துரதிர்ஷ்டவசமான பாதிக்கப்பட்டவர்களின் ஆன்மாக்கள், இப்போது <em>yūrei</em> ஆக மாற்றப்பட்டு, முடிவில்லாத பயணத்திற்கு கண்டனம் தெரிவிக்கின்றன. கோமாயை மீண்டும் பார்க்க வேண்டும் என்ற தவிர்க்கமுடியாத ஆசையாலும், தங்கள் முடிக்கப்படாத ஓகி விளையாட்டை முடிக்கும் நம்பிக்கையாலும், அவர்கள் நிறைவேறாத ஆசை மற்றும் நிறைவேறாத வருத்தத்தில் நித்தியமாக அலைகிறார்கள்.</p>
+
+
+  <picture>
+    <source type="image/webp" srcset="img/komayo-512x512.webp" media="(max-width: 512px)" height="512" width="512">
+    <source type="image/webp" srcset="img/komayo-1024x1024.webp" media="(min-width: 512px)" height="1024" width="1024">
+
+    <img
+      src="img/komayo-1024x1024.jpg"
+      alt="கோமாயோ, ஒரு யோகாய், ஓகி விளையாட்டின் போது காட்டப்படுகிறது. அவள் பக்கத்தில், அவள் களைத்துப்போயிருப்பதைக் காணலாம்."
+      title="கோமயோவின் வசீகர ஓகி விளையாட்டும் தவிர்க்க முடியாத ஆழ்ந்த உறக்கமும்"
+      height="1024"
+      width="1024">
+  </picture>
+</article>
+
+
+  </body>
+</html>
